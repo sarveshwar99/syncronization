@@ -98,7 +98,7 @@ void *fun3(void *receive)
 	    pthread_mutex_lock(&l);
 	    x=shared;
 	    x++;  
-	    printf("Teacher has given pen and paper and I have question paper\n");
+	    printf("Teacher has given pen and paper and I have question paper.\n");
 	    sleep(5); 
 	    shared=x; 
 	    printf("student 3 completed assignment\n");
