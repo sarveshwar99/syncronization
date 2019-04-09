@@ -18,9 +18,9 @@ struct resource
 int turn=0;
 int main()
 {
-	printf("Student 1 has pen\n");
-	printf("Student 2 has paper\n");
-	printf("Student 3 has question paper\n");
+	printf("Student 1 has pen.\n");
+	printf("Student 2 has paper.\n");
+	printf("Student 3 has question paper.\n");
 	pthread_mutex_init(&l, NULL); //initializing mutex locks
 	pthread_t student1, student2,student3;	//declaring thread variable
 	struct resource send;					//declaring object of resource
